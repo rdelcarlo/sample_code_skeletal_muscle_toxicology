@@ -26,7 +26,10 @@ These scripts are intended to be run sequentially, but it is not necessary to ru
 
 ## Scripting Conditions
 
-These codes were drafted on a Windows machine using R Studio running on a base of R 4.0.0. These codes have since been tooled to work on MacOS and you may expect warnings. If you are running these codes on a MacOS device, you may need to run:
+R Version R 4.2.0
+These codes were drafted on a Windows machine and have since been tooled to work for a Mac OS (Monterey).
+
+If you are running these codes on a MacOS device, you may need to run:
 
 ```bash
 xcode-select --install
@@ -123,5 +126,8 @@ The sample includes 4.41 GB of data comprising 510 files.
 
 ### Code 3
 ![Code 3 Graphical Summary](./Images/R_Skeletal_Muscle_TTX_Processing.jpg)
+
+### Code 4
+![Code 4 Graphical Summary](./Images/R_Skeletal_Muscle_TTX_Sigmoidal_Processing.jpg)
 
 ------------------------------------------------------------------------

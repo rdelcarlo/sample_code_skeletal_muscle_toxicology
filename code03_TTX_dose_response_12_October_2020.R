@@ -405,5 +405,5 @@ for (var in names(a1_cast)) {
   write.csv(a1_cast[[var]], paste0("./output/p4C4PwithTTX-", var, ".csv"))
 }
 
-# Open the most important summary file from the analysis and use it to run preliminary visualization.
+# Open the most important summary file from the analysis for quality control checking by hand.
 system('open ./p4C4PwithTTX-ContrAmpl.N.g..csv')
